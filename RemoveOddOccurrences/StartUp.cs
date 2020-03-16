@@ -13,24 +13,25 @@ namespace RemoveOddOccurrences
                 .Select(x => int.Parse(x))
                 .ToList();
 
+            Dictionary<int, int> occurences = new Dictionary<int, int>();
+
             for (int i = 0; i < numbers.Count; i++)
             {
-                int count = 0;
-                for (int j = 0; j < numbers.Count; j++)
+                if (!occurences.ContainsKey(numbers[i]))
                 {
-                    if (numbers[j] == numbers[i])
-                    {
-                        count++;
-                    }
-
+                    occurences.Add(numbers[i], 0);
                 }
 
-                if (count  % 2 == 0)
+                occurences[numbers[i]] += 1;
+            }
+
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (occurences[numbers[i]] % 2 == 0)
                 {
                     Console.Write(numbers[i] + " ");
                 }
             }
-
 
         }
     }

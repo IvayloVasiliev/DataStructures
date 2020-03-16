@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceInLabyrinth", "DistanceInLabyrinth\DistanceInLabyrinth.csproj", "{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubsequence", "LongestSubsequence\LongestSubsequence.csproj", "{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

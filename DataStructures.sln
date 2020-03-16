@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceInLabyrinth", "Dist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubsequence", "LongestSubsequence\LongestSubsequence.csproj", "{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveOddOccurrences", "RemoveOddOccurrences\RemoveOddOccurrences.csproj", "{AD573778-EACD-4346-96D4-A6835530C315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD573778-EACD-4346-96D4-A6835530C315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD573778-EACD-4346-96D4-A6835530C315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD573778-EACD-4346-96D4-A6835530C315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD573778-EACD-4346-96D4-A6835530C315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

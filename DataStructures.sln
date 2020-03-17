@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveOddOccurrences", "Rem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBracketsStack", "MatchingBracketsStack\MatchingBracketsStack.csproj", "{9570E239-C78D-4509-B5AE-127C7D734DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedStack", "LinkedStack\LinkedStack.csproj", "{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9570E239-C78D-4509-B5AE-127C7D734DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9570E239-C78D-4509-B5AE-127C7D734DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9570E239-C78D-4509-B5AE-127C7D734DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

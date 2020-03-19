@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceInLabyrinth", "DistanceInLabyrinth\DistanceInLabyrinth.csproj", "{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceInLabyrinth", "DistanceInLabyrinth\DistanceInLabyrinth.csproj", "{EFDCC5A5-ED34-4A0A-9570-E1DE70305950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubsequence", "LongestSubsequence\LongestSubsequence.csproj", "{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubsequence", "LongestSubsequence\LongestSubsequence.csproj", "{2213AE3F-D374-49AC-AD1D-AE7EC4003AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveOddOccurrences", "RemoveOddOccurrences\RemoveOddOccurrences.csproj", "{AD573778-EACD-4346-96D4-A6835530C315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveOddOccurrences", "RemoveOddOccurrences\RemoveOddOccurrences.csproj", "{AD573778-EACD-4346-96D4-A6835530C315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBracketsStack", "MatchingBracketsStack\MatchingBracketsStack.csproj", "{9570E239-C78D-4509-B5AE-127C7D734DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchingBracketsStack", "MatchingBracketsStack\MatchingBracketsStack.csproj", "{9570E239-C78D-4509-B5AE-127C7D734DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedStack", "LinkedStack\LinkedStack.csproj", "{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedStack", "LinkedStack\LinkedStack.csproj", "{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Sequence with a Queue", "Calculate Sequence with a Queue\Calculate Sequence with a Queue.csproj", "{BDD52C3A-31AC-4F1A-8029-A7E187BDD0F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7712CC-C658-48CF-8AB2-A0E11D4EF7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD52C3A-31AC-4F1A-8029-A7E187BDD0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD52C3A-31AC-4F1A-8029-A7E187BDD0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD52C3A-31AC-4F1A-8029-A7E187BDD0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD52C3A-31AC-4F1A-8029-A7E187BDD0F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
